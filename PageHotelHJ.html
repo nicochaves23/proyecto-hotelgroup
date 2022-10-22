@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" class="ColorHtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Group</title>
+  <link rel="icon" href="./Logo_nav.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="./style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body class="ColorHtml">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid mx-lg-5 ">
+      <a href="./index.html"> <img class="ms-sm-3 ms-md-3 ms-lg-1 WidthLogo" src="./Logo_nav.png" alt="logo"></a>
+      <a class="navbar-brand fw-normal fs-2" href="./index.html">Hotel Group</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link fw-semibold pe-4" href="#">Acerca de Nosotros</a>
+          <a class="nav-link fw-semibold pe-4" href="#">Contacto</a>
+          <a class="nav-link fw-semibold pe-4" href="./error404.html" data-bs-toggle="modal" data-bs-target="#exampleModal">Suscribirme</a>
+          <a href="./login.html"><button type="button" class="btn fw-semibold ColorLogin">Log In</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content modalUno">
+        <div class="modal-header modalDos">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suscríbete a nuestro Blog</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn bottonUno" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn bottonDos">Suscribirme</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="ColorHeader">
+    <div class="container MarginHead">
+    <h1 class="text-center TituloSombra">Hotel Haward Johnson</h1>
+  </div>
+    <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner w-100 rounded shadow-lg">
+        <div class="carousel-item active p-2 p-sm-2 p-lg-2 p-xl-2">
+          <a href="#"><img src="./imagenes portada/howard-johnson-yerba- carrousel.jpg" class="shadow-lg d-block w-100 rounded" alt="Habitacion"></a>
+        </div>
+        <div class="carousel-item  p-2 p-sm-2 p-lg-2 p-xl-2">
+          <a href="#"><img src="./Imagenes San Javier/habitaciones-hotel-sol-san-javier-12.jpg" class="shadow-lg d-block w-100 rounded" alt="Habitacion"></a>
+        </div>
+        <div class="carousel-item p-2 p-sm-2 p-lg-2 p-xl-2">
+          <a href="#"><img src="./Imagenes San Javier/habitaciones-hotel-sol-san-javier-15.jpg" class="shadow-lg d-block w-100 rounded" alt="Habitacion"></a>
+        </div>
+        <div class="carousel-item p-2 p-sm-2 p-lg-2 p-xl-2">
+          <a href="#"><img src="./Imagenes San Javier/habitaciones-hotel-sol-san-javier-20.jpg" class="shadow-lg d-block w-100 rounded" alt="Habitacion"></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container text-center">
+      <h1 class="text-center m-5 shadow ColorHab">Nuestras habitaciones</h1>
+      <div class="row">
+      <div class="col-sm-12 col-md-6 col-xl-3 p-4 shadow">
+        <h3>Habitaciones Dobles Deluxe</h3>
+        <img src="./Imagenes San Javier/habitaciones-dobles-delux.jpg" alt="" class="w-100 mb-1 rounded shadow-sm">
+        <p class="w-100 mb-3">Estas habitaciones tienen vista a la ciudad de San Miguel de Tucumán o vista al Cerro San Javier. Las mismas están equipadas con cama sommier, teléfono, aire acondicionado frio-calor, caja de seguridad, calefacción, minibar, TV, baño privado con bañera y Wi-Fi. Ofrecidas a familias, con capacidad máxima de 5 huéspedes entre las dos habitaciones.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-xl-3 p-4 shadow">
+        <h3>Habitaciones Departamentos</h3>
+        <img src="./Imagenes San Javier/departamentos-hotel-sol-san-javier-tucuman.jpg" alt="" class="w-100 mb-1 rounded shadow-sm">
+        <p class="w-100 mb-3">Existen 2 departamentos en el hotel, especialmente diseñados para familias. Los mismos están compuestos por 2 habitaciones contiguas, vanitory y baño completo con bañera.
+        Los departamentos están equipadas con camas sommier, telefono, 2 unidades de aire acondicionado frio- calor, caja de Seguridad, 2 minibar, 2 TV, baño privado con bañera, WiFi.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-xl-3 p-4 shadow">
+        <h3>Habitaciones Suite Junior</h3>
+        <img src="./Imagenes San Javier/suite-junior-hotel-sol-san-javier-tucuman.jpg" alt="" class="w-100 mb-1 rounded shadow-sm">
+        <p class="w-100 mb-3">Se diferencia de habitaciones superiores por su amplio ventanal con vista a la ciudad, TV 29" LCD y bañera con hidromasaje.
+        La habitación está equipada con: sommier king, teléfono, aire acondicionado frio-calor, Caja de Seguridad, Calefacción, Minibar, TV, Baño privado con bañera de hidromasaje y Wi-Fi.</p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-xl-3 p-4 shadow">
+        <h3>Habitaciones Superiores</h3>
+        <img src="./Imagenes San Javier/habitaciones-dobles-delux.jpg" alt="" class="w-100 mb-1 rounded shadow-sm">
+        <p class="w-100 mb-5">Tiene 60 m2, balcón con vista a la ciudad, sala de estar con TV 29" LCD, kitchenette y toilette.
+        Las suites superiores están equipadas además con camas sommier king, teléfono, 2 unidades de aire acondicionados frio-calor, caja de seguridad, minibar, TV 29´ LCD, baño privado con bañera, Wi-Fi.</p>
+      </div>
+    </div>
+    <br>
+    <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="m-4 col-5">
+          <h4>Dejanos tu comentario!</h4>
+          <br>
+          <form action="">
+          <label class="fw-semibold" for="nombre">Nombre y Apellido:</label>
+          <br>
+          <input class="rounded bg-light bg-opacity-50" type="text" id="nombre" name="nombre" required autocomplete="name">
+          <br>
+          <br>
+          <label class="fw-semibold" for="correo">Email:</label>
+          <br>
+          <input class="rounded bg-light bg-opacity-50" type="email" id="correo" name="correo" required autocomplete="email">
+          <br>
+          <br>
+          <label class="fw-semibold" for="text">Comentario:</label>
+          <br>
+          <textarea class="rounded bg-light bg-opacity-50 dialogoComent" name="Mensaje" id="Mensaje" cols="50" rows="10"></textarea>
+          <br>
+          <label for="text">*Hasta 400 palabras</label>
+          <br>
+          <br>
+          <input class="btn fw-semibold ColorLogin" type="submit">
+        </div>
+        <div class="col-12 col-lg-5">
+          <div class="m-2 col-12">
+            <h3 class="mb-4">Comentarios:</h3>
+            <h5 class="m-0"> <i class="bi bi-person-circle me-2"></i>José Rodriguez</h5>
+            <p>Hace 2 meses</p>
+            <p>"Es un lugar agradable, buena atención del personal"</p >
+            <hr>
+          </div>
+          <div class="m-2 col-12">
+            <h5 class="m-0"> <i class="bi bi-person-circle me-2"></i>Juan Perez</h5>
+            <p class="">Hace 3 meses</p>
+            <p>"Hermosa vista, como siempre, hermoso lugar, nos hospedamos varias veces."</p >
+            <hr>
+          </div>
+          <div class="m-2 col-12">
+            <h5 class="m-0"> <i class="bi bi-person-circle me-2"></i>Pepito Juarez</h5>
+            <p class="">Hace 3 meses</p>
+            <p>"Es un hotel al que siempre volvemos, por el lugar y lo bien que lo pasamos."</p >
+            <hr>
+          </div>
+          <div class="m-2 col-12">
+            <h5 class="m-0"> <i class="bi bi-person-circle me-2"></i>Carlos Arias</h5>
+            <p class="">Hace 4 meses</p>
+            <p>"Es un hotel viejo bien mantenido. En la habitación no había secador de pelo, pero pedimos en recepción y nos llevaron a la habitación."</p >
+            <hr>
+          </div>
+          <div class="m-2 col-12">
+            <h5 class="m-0"> <i class="bi bi-person-circle me-2"></i>Jorge Rojas</h5>
+            <p class="">Hace 5 meses</p>
+            <p>"Hicimos reserva para el almuerzo con unos amigos y la pasamos tan bien que entre charlas y risas llegamos a la merienda."</p >
+            <hr>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+  <footer class="footer d-flex align-items-center container-fluid row p-0 m-0">
+    <div class="col-sm-1 d-none d-sm-block">
+      <img src="./Logo_nav.png" alt="Logo del Blog" class="w-100" />
+    </div>
+    <div class="col-12 col-sm-7 text-center">
+      <a href="./Error.html" class="bi bi-instagram mx-4"></a>
+      <a href="./Error.html" class="bi bi-twitter mx-4"></a>
+      <a href="./Error.html" class="bi bi-facebook mx-4"></a>
+    </div>
+    <div class="col-sm-4 d-none d-sm-block">
+        Copyright&copy; 2022 - Página creada por HotelGroup - Todos los derechos reservados
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+  
+</body>
+</html>

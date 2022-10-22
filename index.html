@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en"  class="ColorHtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Group</title>
+    <link rel="icon" href="./Logo_nav.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body class="ColorHtml">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid mx-lg-5 ">
+        <a href="./index.html"> <img class="ms-sm-3 ms-md-3 ms-lg-1 WidthLogo" src="./Logo_nav.png" alt="logo"></a>
+        <a class="navbar-brand fw-normal fs-2" href="./index.html">Hotel Group</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link fw-semibold pe-4" href="#">Acerca de Nosotros</a>
+            <a class="nav-link fw-semibold pe-4" href="#">Contacto</a>
+            <a class="nav-link fw-semibold pe-4" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Suscribirme</a>
+            <a href="./login.html"><button type="button" class="btn fw-semibold ColorLogin">Log In</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content modalUno">
+          <div class="modal-header modalDos">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscríbete a nuestro Blog</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn bottonUno" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn bottonDos">Suscribirme</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="container col-12 mb-4 ColorHeader text-center TituloSombra MarginHead">
+        <h1>Encuentra tu próxima estancia</h1>
+      </div>
+    <header class="ColorHeader">
+      <section class="container">
+        <div id="carouselExampleControls" class="carousel slide m-4" data-bs-ride="carousel">
+          <div class="carousel-inner rounded shadow-lg">
+            <div class="carousel-item active">
+              <img src="./imagenes portada/howard-johnson-yerba- carrousel.jpg" class="shadow-lg d-block w-100 rounded"alt="Carrusel_Hotel_Hilton_Garden"/>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes portada/Hotel Hilton carrousel.jpg" class="shadow-lg d-block w-100 rounded" alt="Carrusel_Hotel_Howard_Johnson"/>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes portada/terraza-hotel-sol-san-javier-carrousel.jpg" class="shadow-lg d-block w-100 rounded" alt="Carrusel_Hotel_San_Javier"/>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes portada/hotel tafi carrousel.jpg" class="shadow-lg d-block w-100 rounded" alt="Carrusel_Hotel_Tafi"/>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"><span>
+            <span class="visually-hidden">Previous</span>
+          </button> 
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <div class="container">
+        <div class="container">
+          <hr>
+          <h2 class="text-center m-3">HotelGroup hace las cosas más fáciles y gratificantes. ¡Siempre!</h2>
+          <hr>
+        </div>
+      </div>
+      <section class="container mt-5">
+        <div class="container-fluid text-start">
+          <div class="row">
+            <div class="col-lg-8 col-sm-12 mb-5">
+              <div class="conteiner-fluid">
+                <div class="row container m-0">
+                  <div class="card col-lg-6 col-sm-12 tarjeta mb-lg-1 mb-3">
+                    <h5 class="card-title text-center m-2">Hotel Hilton Garden</h5>
+                    <img src="./imagenes portada/Hotel Hilton carrousel.jpg" class="w-100 mt-2 rounded" alt="Hilton-Garden-Hotel"/>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Hotel 5☆ esta ubicado a 5 km del Parque 9 de Julio, ofrece habitaciones y suites equipadas, así como desayuno americano. El Aeropuerto Teniente General Benjamín Matienzo queda a 13 km.
+                      </p>
+                      <a href="./PageHotelHilton.html" class="card-link">Ver Mas</a>
+                    </div>
+                  </div>
+                  <div class="card col-lg-6 col-sm-12 tarjeta mb-lg-1 mb-3">
+                    <h5 class="card-title text-center m-2">Hotel Howard Jhonson</h5>
+                    <img src="./imagenes portada/howard-johnson-yerba- carrousel.jpg" class="w-100 mt-2 rounded" alt="Howard-Hotel"/>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Hotel 3☆ ubicado en Av. Aconquija 1136- Yerba Buena, Tucumán. Cuenta con habitaciones variadas de todo tipo, eventos ditinguidos, Spa & piscina y recreaciones en jardines-terrazas.
+                      </p>
+                      <a href="./PageHotelHJ.html" class="card-link">Ver Mas</a>
+                    </div>
+                  </div>
+                  <div class="card col-lg-6 col-sm-12 tarjeta mb-lg-1 mb-3">
+                    <h5 class="card-title text-center m-2">Hotel San Javier</h5>
+                    <img src="./imagenes portada/terraza-hotel-sol-san-javier-carrousel.jpg" class="w-100 mt-2 rounded" alt="SanJavier-Hotel"/>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Hotel 4☆ se encuentra en Ruta 340 - Km 23, San Javier- Tucumán. Ofrece variedad de habitaciones y suites, cuenta con actividades por los lugares mas turisticos del lugar (Horco Molle, Loma bola, entre otros). 
+                      </p>
+                      <a href="./PageHotelSJ.html" class="card-link">Ver Mas</a>
+                    </div>
+                  </div>
+                  <div class="card col-lg-6 col-sm-12 tarjeta mb-lg-1 mb-3">
+                    <h5 class="card-title text-center m-2">Hotel Tafi</h5>
+                    <img src="./imagenes portada/hotel tafi carrousel.jpg" class=" w-100 mt-2 rounded" alt="Tafi-Hotel"/>
+                    <div class="card-body">
+                      <p class="card-text">
+                       Hotel 3☆ ubicado en AV. Belgrano 177 - Tafí del Valle - Tucumán. Disfruta y vive la experiencia Tafí
+                       desde el centro de la Villa, con gastronomia y actividades diversas autoctonas.
+                      </p>
+                      <a href="./PageHotelTafi.html" class="card-link">Ver Mas</a>
+                    </div>
+                  </div>
+                  <nav aria-label="Page navigation example" class="tarjeta">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link tarjeta text-dark" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link tarjeta text-dark" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link tarjeta text-dark" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link tarjeta  text-dark" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link tarjeta text-dark" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 ">
+              <div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary ColorLogin" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                </div>
+                  <h3 class="mt-4">Categorias:</h3>
+                  <ul>
+                    <li><a href="./Error.html" class="categoria">Hoteles Capital</a></li>
+                    <hr>
+                    <li><a href="./Error.html" class="categoria">Hoteles Tafi de Valle</a></li>
+                    <hr>
+                    <li><a href="./Error.html" class="categoria">Hoteles San Javier</a></li>
+                    <hr>
+                  </ul>
+              </div>
+            </div>
+            <div class="conteiner-fluid col-lg-2 d-none d-lg-inline mb-4">
+              <img src="./Imagenes publicidad/Publicidad-RollingCode-4.png" class="w-100">
+              <img src="./Imagenes publicidad/2Q8A2713.png" class="w-100">
+              <img src="./Imagenes publicidad/Sin título.png" alt="Publicidad-RollingCode-3" class="w-100">
+              <img src="./Imagenes publicidad/Publicidad-RollingCode-4.png" class="w-100">
+              <img src="./Imagenes publicidad/2Q8A2713.png" class="w-100">
+              <img src="./Imagenes publicidad/Sin título.png" alt="Publicidad-RollingCode-3" class="w-100">
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <footer class="footer d-flex align-items-center container-fluid row p-0 m-0">
+      <div class="col-sm-1 d-none d-sm-block">
+        <img src="./Logo_nav.png" alt="Logo del Blog" class="w-100" />
+      </div>
+      <div class="col-12 col-sm-7 text-center">
+        <a href="./Error.html" class="bi bi-instagram mx-4"></a>
+        <a href="./Error.html" class="bi bi-twitter mx-4"></a>
+        <a href="./Error.html" class="bi bi-facebook mx-4"></a>
+      </div>
+      <div class="col-sm-4 d-none d-sm-block">
+          Copyright&copy; 2022 - Página creada por HotelGroup - Todos los derechos reservados
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
