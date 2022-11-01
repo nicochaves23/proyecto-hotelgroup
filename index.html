@@ -42,7 +42,7 @@
             <form>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required maxlength="20" placeholder="Ej: pepitojuarez@correo.com.ar">
                 <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
               </div>
             </form>
@@ -160,9 +160,10 @@
             </div>
             <div class="col-lg-2 ">
               <div>
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary ColorLogin" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                <div class="d-flex">
+                  <form class="d-flex" role="search"></form>
+                  <input type="Search" class="form-control" placeholder="Buscar" aria-label="Search" aria-describedby="button-addon2" equired maxlength="25">
+                  <button class="btn btn-outline-secondary ColorLogin" type="submit"><i class="bi bi-search"></i></button>
                 </div>
                   <h3 class="mt-4">Categorias:</h3>
                   <ul>
